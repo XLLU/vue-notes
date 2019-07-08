@@ -1,0 +1,22 @@
+.notes {
+	margin-top: 32px;
+}
+
+.notes .ui textarea {
+	border: 0;
+	font-size: 16px;
+	padding: 0;
+	margin: 32px 0;
+}
+
+.header {
+	display: block;
+	cursor: pointer;
+}
+
+.notes>.items>.item>.meta {
+	width: 120px; 
+	color: rgba(0 0 0 0.4);
+	margin-top: 0;
+	margin-bottom: 16px;
+}

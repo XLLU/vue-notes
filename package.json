@@ -6,9 +6,12 @@
   "author": "XLLU <lucasluu@yahoo.com>",
   "license": "MIT",
   "scripts": {
-  	"start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
-  }, 
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --files='index.html, *.css, *.js'"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.7"
+  },
+  "dependencies": {
+    "semantic": "0.0.1"
   }
 }
